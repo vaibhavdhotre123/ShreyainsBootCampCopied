@@ -1,0 +1,239 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: black;
+color: white;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav2 ul{
+    margin-top: 2vw;
+    gap: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.nav2 button{
+    padding: 0.3rem 1.3rem;
+}
+.p1 h4{
+    font-size: 10vh;
+    margin-top: 6rem;
+    margin-left: 7rem;
+}
+.page1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+
+
+}
+.line1 button{
+    margin-left: 7rem;
+    padding: 0.7rem 2rem;
+    background-color: grey;
+    color: white;
+    border-radius: 12rem;
+    font-size: 1.1rem;
+} 
+.p2 img{
+    width: 100%;
+    height: 58vh;
+    object-fit: cover;
+    margin-top: -9rem;
+    border-radius: 12px;
+}
+
+.line1 h2{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 7rem;
+}
+.p2{
+    width: 42vw;
+    height: 60vh;
+    border: 1px solid white;
+   
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+.page2{
+    margin-top: 10rem;
+    margin-left: 5rem;
+    font-size: 10vh;
+    margin-top: 6rem;
+    margin-left: 7rem;
+}
+.l1 button{
+    margin-left: 5rem;
+    padding: 0.7rem 2rem;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+
+}
+.page3{
+    margin-top: 10rem;
+    margin-left: 5rem;
+    font-size: 12vh;
+    margin-top: 9rem;
+    margin-left: 7rem;
+}
+.page3 p{
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+
+.page3 h3{
+    margin-top: 18vh;
+    font-size: 13vw;
+    
+}
+.page3 p{
+    font-size: 8vh;
+    color: grey;
+}
+.page5{
+    margin-top: 10rem;
+    margin-left: 5rem;
+    font-size: 4vh;
+    margin-top: 9rem;
+    margin-left: 7rem;
+}
+form{
+    margin-top: 3rem;
+}
+
+input{
+    padding: 1rem 2rem;
+}
+form button{
+    width: 80%;
+    margin-left: 4rem;
+    height: 4rem;
+    margin-bottom: 4rem;
+    border-radius: 12px;
+
+}
+form button:hover{
+    background-color:rgb(84, 202, 163);
+    font-size: 2rem;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font:3rem;
+    padding: 1rem 2rem;
+    list-style-type: none;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .navbar{
+        width: 20%;
+        display: inline-block;
+
+    }
+    .navbar h4{
+        white-space: nowrap;
+        margin-left: 5rem;
+        margin-top: 3rem;
+    }
+    .navbar ul{
+        display: inline-block;
+        background-repeat: no-repeat;
+        margin-left: 7rem;
+    }
+    .page1{
+        flex-direction: column;
+
+    }
+    .p1 h4{
+        font-size: 4rem;
+        margin-right: 6rem;
+    }
+    .line1 button{
+        margin-top: 1rem;
+
+    }
+    .line1 h2{
+        font-size: 1rem;
+    }
+    .p2 {
+        width: 80%;
+        margin-left: 2rem;
+        height: 15rem;
+        border-radius: 0rem;
+    }
+    .p2 img{
+        height: 13rem;
+        object-fit: cover;
+        position: center;
+    }
+    .page2 h4{
+        font-size: 2rem;
+        margin-right: 2rem;
+        margin-left: -2rem;
+     
+    }
+
+    .line2 .l1 button{
+        margin-right: 3rem;
+        padding: 2px 3rem;
+        font-size: 1rem;
+        margin-left: -3rem;
+    }
+    .page3 h4{
+        font-size: 2rem;
+        margin-left: -2rem;
+    }
+    .page3 p{
+        font-size: 1rem;
+        margin-left: -4rem;
+    }
+    .page3 h3{
+        margin-left: -3rem;
+    }
+    .page3 p{
+        margin-left: -2rem;
+    
+    }
+    .page5 h4{
+        margin-left: -2rem;
+    }
+    .page5 p{
+        margin-left: -2rem;
+        font-size: 1rem;
+    }
+    form{
+        margin-left: -3rem;
+    }
+    form button{
+        margin-left: -0.4rem;
+        border-radius: 1rem;
+        font-size: 1rem;
+
+    }
+    .footer{
+        flex-direction: column;
+        margin-top: 1rem;
+        list-style-type: none;
+    }
+}
+
+
+
+
+
